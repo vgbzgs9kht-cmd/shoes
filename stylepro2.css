@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Menu {
+    width: 42%;
+    height: 60%;
+    float: left;
+    /*background-color: blue;*/
+
+}
+
+.Menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Menu ul li {
+
+    width: 20%px;
+    height: 100%;
+    background-color: #ffffff;
+    float: left;
+}
+
+.Menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 30px 40px;
+
+}
+
+.Menu ul li a:hover {
+    background-color: rgb(244, 242, 242);
+
+}
+
+.search input {
+    padding: 10px 15px;
+    border: none;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+
+
+.breadcrumb {
+    padding: 30px 60px 10px;
+    color: #777;
+}
+
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 30px;
+}
+
+.title-row h1 {
+    font-size: 48px;
+}
+
+.title-row select {
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+    gap: 30px;
+    padding: 0 60px;
+}
+
+
+.sidebar {
+    width: 250px;
+}
+
+.sidebar h3 {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.sidebar hr {
+    margin: 25px 0;
+}
+
+.sizes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.sizes button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.active-size {
+    background: #000 !important;
+    color: #fff;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.colors span {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: block;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: #2457ff;
+}
+
+.yellow {
+    background: gold;
+}
+
+.gray {
+    background: #999;
+}
+
+.products {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin-top: 15px;
+    color: #666;
+}
+
+.card p {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.card span {
+    color: #555;
+}
+
+.load {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.load button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+}
+
+.Container-footer {
+    width: 100%;
+    background: linear-gradient(180deg, #11131d 0%, #1a1f33 100%);
+    color: #f5f7ff;
+    padding: 60px 20px;
+}
+
+.Container-footer .Footer-Content {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 32px;
+}
+
+.Container-footer .Footer-Item h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.Container-footer .Footer-Item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Container-footer .Footer-Item ul li {
+    margin-bottom: 12px;
+}
+
+.Container-footer .Footer-Item ul li a {
+    color: #c0c5d2;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.Container-footer .Footer-Item ul li a:hover {
+    color: #ffffff;
+}
